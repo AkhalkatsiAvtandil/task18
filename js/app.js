@@ -20,3 +20,12 @@ function getemptyornotempty(a = true, b = false) {
   console.log(a);
 }
 getemptyornotempty();
+// task2
+
+let usd = 2.98;
+let usdtogel = 0.28;
+function getusdtogel(usd = 2.98, usdtogel = 0.28) {
+  //   let usd, usdtogel;
+  console.log("usd to gel :", usd * usdtogel);
+}
+getusdtogel();
