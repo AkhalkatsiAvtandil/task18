@@ -29,3 +29,24 @@ function getusdtogel(usd = 2.98, usdtogel = 0.28) {
   console.log("usd to gel :", usd * usdtogel);
 }
 getusdtogel();
+
+// task3
+
+const arrowcurrencycode = (
+  USD = "United State",
+  EUR = "European Union",
+  GEL = "Georgia",
+  RUB = "Unknow Currency",
+) => {
+  console.log(GEL, EUR, USD, RUB);
+};
+arrowcurrencycode();
+
+// task4
+const arrowguest = (
+  uppercase = "MY NAME IS JANE",
+  lovercase = " my name is jane",
+) => {
+  console.log(lovercase);
+};
+arrowguest();
