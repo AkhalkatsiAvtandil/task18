@@ -68,6 +68,8 @@ data.products.forEach((products) => {
 data.products.forEach((products) => {
   if (products.price < 100) console.log(products.price);
   console.log(products.price < 1100);
-  //   console.log(true);
-  //   console.log(products.price[4]);
 });
+const filterprices = data.products.filter((products) => {
+  return products.price < 1100;
+});
+console.log(filterprices);
