@@ -63,3 +63,11 @@ arrowguest();
 data.products.forEach((products) => {
   if (products.storageQuantity > 100) console.log(products.storageQuantity);
 });
+
+// task6
+data.products.forEach((products) => {
+  if (products.price < 100) console.log(products.price);
+  console.log(products.price < 1100);
+  //   console.log(true);
+  //   console.log(products.price[4]);
+});
