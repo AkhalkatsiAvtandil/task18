@@ -73,3 +73,23 @@ const filterprices = data.products.filter((products) => {
   return products.price < 1100;
 });
 console.log(filterprices);
+
+// task7
+
+const onlyprices = data.products.find((el, index, array) => {
+  return (el.id = 7440);
+  //   return (, "HP Notebook 15/BL1K4EA");
+});
+
+console.log(onlyprices);
+
+const onlyprices2 = data.products.find((el, index, array) => {
+  //   return (el.id = 7440);
+  // return (el."HP Notebook 15/BL1K4EA");
+  return (el.name = "HP Notebook 15/BL1K4EA");
+});
+console.log(onlyprices2);
+
+// data.products.forEach((products) => {
+//   if (products) console.log(products);
+// });
