@@ -631,3 +631,7 @@ export const data = {
   success: true,
   errors: [],
 };
+function logproducts() {
+  console.log(data.products);
+}
+// export { data, logproducts };

@@ -50,3 +50,16 @@ const arrowguest = (
   console.log(lovercase);
 };
 arrowguest();
+
+// task5
+
+// storageQuantity
+// data.products();
+// const callback = (storageQuantity) => {
+//   console.log(storageQuantity);
+// };
+
+// data.products.forEach(callback);
+data.products.forEach((products) => {
+  if (products.storageQuantity > 100) console.log(products.storageQuantity);
+});
